@@ -4,7 +4,7 @@ Set WshShell = WScript.CreateObject("WScript.Shell")
 WshShell.Run "yosys.exe"
 
 ' Select, or bring Focus to a window named `TESTABILITY MEARSUREMENT TOOL`
-WshShell.AppActivate "Testability Measurement Tool"
+WshShell.AppActivate "YOSYS"
 
 ' Wait for 1 second(s)
 WScript.Sleep 1000
@@ -31,7 +31,7 @@ WScript.Sleep 5000
 WshShell.Run "Draftfull.py"
 
 ' Select, or bring Focus to a window named `PYTHON SCRIPTING`
-WshShell.AppActivate "Testability Measurement Tool"
+WshShell.AppActivate "PYTHON"
 
 ' Wait for 3 second(s)
 WScript.Sleep 3000
