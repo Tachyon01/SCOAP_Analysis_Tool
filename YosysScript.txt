@@ -1,0 +1,5 @@
+read_verilog uart.v u_rec.v u_xmit.v  *reads verilog files*
+hierarchy -check -top uart            *reads the top module for parsing*
+proc; opt; fsm; opt; memory; opt      *initialise FSMs, processes of RTL synthesis*
+techmap; opt                          *Map coarse-grain RTL cells (adders,etc.) to fine-grain logic gates (AND,OR)*
+write_json Jsonscript.txt
