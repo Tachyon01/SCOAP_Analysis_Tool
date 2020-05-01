@@ -37,7 +37,7 @@ WshShell.AppActivate "PYTHON"
 WScript.Sleep 3000
 
 ' Start / Run ScoapTool.EXE
-WshShell.Run "C:\Users\PULKIT\Desktop\Project\scoaptool.exe"
+WshShell.Run "scoaptool.exe"
 
 ' Select, or bring Focus to a window named `TESTABILITY MEARSUREMENT TOOL`
 WshShell.AppActivate "Testability Measurement Tool"
