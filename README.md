@@ -16,4 +16,4 @@ Download all the files at one location(directory) including .exe, .v and various
 
 We have used Yosys: http://www.clifford.at/yosys/  and SCOAP tool: https://sourceforge.net/projects/testabilitymeasurementtool/ as primary tools for the project
 
-Video: https://www.youtube.com/watch?v=RB_rpYwMU44&t=9s
+Video: https://youtu.be/RB_rpYwMU44
