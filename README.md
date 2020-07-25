@@ -9,9 +9,11 @@ Steps:
 Simply Run The Wrapper
 
 Side Notes:
-You may need to change the name of iles and Top module in Wrapper and in Python File
+You may need to change the name of files and Top module in Wrapper and in Python File
 
 Requirements:
 Download all the files at one location(directory) including .exe, .v and various other files.
 
 We have used Yosys: http://www.clifford.at/yosys/  and SCOAP tool: https://sourceforge.net/projects/testabilitymeasurementtool/ as primary tools for the project
+
+Video: https://www.youtube.com/watch?v=RB_rpYwMU44&t=9s
